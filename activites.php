@@ -13,7 +13,7 @@
        die("Connection failed: " . $db->connect_error);
     }
 
-    
+
 
 ?>
 <!doctype html>
@@ -37,11 +37,11 @@
         <link rel="stylesheet" href="css/responsive.css">
 
         <style type="text/css">
-            
+
             .d {
                 padding-top: 40px;
             }
-            
+
             .nice-select:nth-of-type(1){
                 margin-left: 190px;
             }
@@ -54,7 +54,7 @@
                 margin-left: 186px;
                 padding: 20px;
             }
-            
+
 
             #s4{
             padding: 10px;
@@ -64,24 +64,24 @@
             font-size: 17.5px;
             background:  #0098cb;
             width: 191px;
-            
+
             margin-left: 170px;
             border: 0px;
             border-radius: 3px;
             cursor: pointer;
             position: relative;
-            
+
         }
 
         </style>
 
     </head>
     <body>
-        
+
         <!--================Header Menu Area =================-->
-        <?php include('header.php'); ?>
+
         <!--================Header Menu Area =================-->
-        
+
         <!--================Home Banner Area =================-->
         <section class="banner_area">
             <div class="banner_inner d-flex align-items-center">
@@ -98,29 +98,29 @@
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-        
+
         <!--================Gallery Area =================-->
         <div class="d">
-            
+
     <form>
   <div class="form-row align-items-center">
     <div class="col-auto">
       <select class="form-control" id="cat">
-                
+
         <option disabled selected>Select category</option>
                             <?php
-                                
-                                
+
+
                                 //Get image data from database
                                 $result = $db->query("SELECT * FROM category");
-                                
+
                                 if($result->num_rows > 0){
                                     while($row = $result->fetch_assoc()){
-                                    
-                                    
+
+
                                     echo '<option value="'.$row['id'].'">'.$row['category'].'</option>';
-                                    
-                                    } 
+
+                                    }
                                 }else{
                                     echo 'Category not found...';
                                 }
@@ -132,70 +132,70 @@
         <option disabled selected>Select sub-category</option>
       </select>
     </div>
-    &ensp; &ensp; 
+    &ensp; &ensp;
     <div class="col-auto">
       <button type="button" id="s4" class="btn btn-primary btn-sm">Submit</button>
     </div>
   </div>
 </form>
-                
-    
-                
-               
+
+
+
+
         </div>
         <section class="gallery_area p_120">
             <div class="container">
                 <div class="row gallery_inner imageGallery1">
-                    
+
                 <?php
                     //DB details
                     $dbHost     = 'localhost';
                     $dbUsername = 'root';
                     $dbPassword = '';
                     $dbName     = 'intern';
-                    
+
                     //Create connection and select DB
                     $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
-                    
+
                     //Check connection
                     if($db->connect_error){
                        die("Connection failed: " . $db->connect_error);
                     }
-                    
+
                     //Get image data from database
                     $result = $db->query("SELECT * FROM activity");
-                    
+
                     if($result->num_rows > 0){
                         while($imgData = $result->fetch_assoc()){
-                        
+
                         //Render image
                         echo '<div class="col-md-4 col-sm-6 gallery_item">
-                                 
+
                                 <div class="card" style="width: 18rem;">
                                   <img class="card-img-top" src="data:image/jpeg;base64,'.base64_encode($imgData['image']).'" alt="Card image cap">
                                   <div class="card-body">
-                                    
+
                                     <p class="card-text">'.$imgData['des'].'</p>
-                                    
+
                                   </div>
                                 </div>
 
                               </div>';
-                        
-                        } 
+
+                        }
                     }else{
                         echo 'Image not found...';
                     }
-            ?>    
-                    
-                    
+            ?>
+
+
                 </div>
-                
+
             </div>
         </section>
         <!--================End Gallery Area =================-->
-        
-        <!--================ start footer Area  =================-->    
+
+        <!--================ start footer Area  =================-->
         <footer class="footer-area section_gap">
             <div class="container">
                 <div class="row">
@@ -224,20 +224,20 @@
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
-                                </div>                                      
-                            </div>                          
+                                </div>
+                            </div>
                         </div>
-                    </div>                          
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>     
+                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>
                             <div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
                                         <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>     
-                                    </div>                                  
+                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                                    </div>
                                     <div class="mt-10 info"></div>
                                 </form>
                             </div>
@@ -257,7 +257,7 @@
                                 <li><img src="img/instagram/Image-08.jpg" alt=""></li>
                             </ul>
                         </div>
-                    </div>                      
+                    </div>
                 </div>
                 <div class="border_line"></div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
@@ -274,10 +274,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>
         <!--================ End footer Area  =================-->
-        
-        
-        
-        
+
+
+
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -316,7 +316,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                         subcat: id
                     },
                     function(data, status){
-                        
+
                         if(status){
                             $(".gallery_inner").html(data);
                         }
