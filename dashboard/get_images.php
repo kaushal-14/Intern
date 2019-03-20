@@ -18,7 +18,7 @@
                             <div class="card" style="width: 18rem;">
                               <img class="card-img-top" src="data:image/jpeg;base64,'.base64_encode($imgData['image']).'" alt="Card image cap">
                               <div class="card-body">
-                                
+                               <input type="checkbox" class="check" value="'.$imgData['id'].'" style="float: right;"> 
                                 <p class="card-text">'.$imgData['des'].'</p>
                                 
                               </div>
