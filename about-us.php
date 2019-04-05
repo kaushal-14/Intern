@@ -21,7 +21,22 @@
         
 
 
+        <style>
+
+            .a {
+                text-align: center;
+            }
+
+            .a h2 {
+                color: black;
+
+            }
+
+
+
+
         </style>
+
         
     </head>
     <body>
@@ -39,7 +54,7 @@
 						<h2>About Us</h2>
 						<div class="page_link">
 							<a href="index.php">Home</a>
-							<a href="about-us.html">About Us</a>
+							<a href="about-us.php">About Us</a>
 						</div>
 					</div>
 				</div>
@@ -53,30 +68,10 @@
         		<div class="row welcome_inner">
         			<div class="col-lg-6">
         				<div class="welcome_text">
-        					<h4>Welcome to Kindity</h4>
-        					<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.</p>
+        					<h4>Welcome to BIRSA YUVA SEVA SAMIT</h4>
+        					<p>BIRSA YUVA SEVA SAMIT(BYSS) was created in 2008 by  young professional, Dr.Bablu Sundi.Agriculture is the backbone of the Indian economy because 75 % of India's population depends on agriculture, He was convinced that even the stubborn, endemic poverty of rural India can be solved by strengthening agriculture and allied sectors. BYSS aims to transform the lives of tribal households in the  tribal belt of Jharkhand, through building knowledge and scaling up programmes in thematic areas of agricultural productivity stabilization, forest based livelihoods, livestock and desi poultry backyard farming, and strengthening community based organisations.</p>
         					<div class="row">
-        						<div class="col-sm-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-database"></i>
-        								<h4>$2.5M</h4>
-        								<p>Total Donation</p>
-        							</div>
-        						</div>
-        						<div class="col-sm-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-book"></i>
-        								<h4>1465</h4>
-        								<p>Total Projects</p>
-        							</div>
-        						</div>
-        						<div class="col-sm-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-users"></i>
-        								<h4>3965</h4>
-        								<p>Total Volunteers</p>
-        							</div>
-        						</div>
+        						
         					</div>
         				</div>
         			</div>
@@ -90,40 +85,64 @@
         </section>
         <!--================End Welcome Area =================-->
         
-        <!--================Feature Area =================-->
+
+        <!--================Vision Area =================-->
+        <!-- <section class="welcome_area p_120">
+            <div class="container">
+                <div class="row welcome_inner">
+                    
+                        <div class="welcome_text">
+                            <h4>Welcome to BIRSA YUVA SEVA SAMIT</h4>
+                            <p>BIRSA YUVA SEVA SAMIT(BYSS) was created in 2008 by  young professional, Dr.Bablu Sundi.Agriculture is the backbone of the Indian economy because 75 % of India's population depends on agriculture, He was convinced that even the stubborn, endemic poverty of rural India can be solved by strengthening agriculture and allied sectors. BYSS aims to transform the lives of tribal households in the  tribal belt of Jharkhand, through building knowledge and scaling up programmes in thematic areas of agricultural productivity stabilization, forest based livelihoods, livestock and desi poultry backyard farming, and strengthening community based organisations.</p>
+                            
+                        </div>
+                    
+                    
+                </div>
+            </div>
+        </section> -->
+        <div class="a">
+            <h2>Our Vision</h2>
+            <p>Transformational improvement in the well-being and socio economic progression of smallholder livestock and poor farmers of rural India particularly tribals.</p>
+            <br><br>
+        </div>
+        <!--================End Vision Area =================-->
+
+
+        <!--================Mission Area =================-->
         <section class="feature_area p_120">
         	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
         	<div class="container">
         		<div class="white_title">
-        			<h2>Our Key Features</h2>
-        			<p>The French Revolution constituted for the conscience of the dominant aristocratic class a fall from innocence, and upturning of the natural chain of events that resounded.</p>
+        			<h2>Our Mission</h2>
+        			<p style = "font-size: 15px; color: white; ">We will contribute to the transformation of smallholder farmers lives by:</p>
         		</div>
         		<div class="row feature_inner">
         			<div class="col-lg-4">
         				<div class="feature_item">
         					<i class="lnr lnr-diamond"></i>
-        					<h4>Sponsorship</h4>
-        					<p>The French Revolutioncons tituted for the conscience of the dominant. aristocr atic class a fall from.</p>
+        					<p style = "font-size: 15px; color: white; ">Understanding the constraints to animal health and how to overcome them.<p>
+        					
         				</div>
         			</div>
         			<div class="col-lg-4">
         				<div class="feature_item">
-        					<i class="lnr lnr-coffee-cup"></i>
-        					<h4>Donate Amount</h4>
-        					<p>The French Revolutioncons tituted for the conscience of the dominant. aristocr atic class a fall from.</p>
+        					<i class="lnr lnr-diamond"></i>
+        					<p style = "font-size: 15px; color: white; ">Ensuring awareness in most backward and tribal dominant areas, availability and adoption of effective animal health interventions.<p>
+        					
         				</div>
         			</div>
         			<div class="col-lg-4">
         				<div class="feature_item">
-        					<i class="lnr lnr-wheelchair"></i>
-        					<h4>Become a Volunteer</h4>
-        					<p>The French Revolutioncons tituted for the conscience of the dominant. aristocr atic class a fall from.</p>
+        					<i class="lnr lnr-diamond"></i>
+        					<p style = "font-size: 15px; color: white; ">Door step delivery of veterinary medicines ,services,schemes and programmes  in rural part of Jharkhand and neighbour state.<p>
+        					
         				</div>
         			</div>
         		</div>
         	</div>
         </section>
-        <!--================End Feature Area =================-->
+        <!--================End Mission Area =================-->
         
         <!--================Testimonials Area =================-->
         <section class="testimonials_area p_120">
@@ -131,60 +150,36 @@
         		<div class="row testimonials_inner">
         			<div class="col-lg-4">
         				<div class="testi_left_text">
-        					<h4>Testimonial from our Donors</h4>
-        					<p>Las Vegas has more than 100,000 hotel rooms to choose from. There is something for every budget, and enough.</p>
+        					<h4>Our Values</h4>
+        					<p>BYSS subscribes to the highest professional and ethical values, which reflect sustainable impact on poor livestock keepers through:</p>
         				</div>
         			</div>
         			<div class="col-lg-8">
         				<div class="testi_slider owl-carousel">
 							<div class="item">
 								<div class="testi_item">
-									<img src="img/testimonials/testi-1.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
+									<img src="img/logo-1.png" alt="">
+                                    <ul>
+                                        <li>Focus on delivery at doorstep</li>
+                                        <li>Sustainability</li>
+
+                                    </ul>
+									
 								</div>
 							</div>
 							<div class="item">
 								<div class="testi_item">
-									<img src="img/testimonials/testi-2.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
+									<img src="img/logo-1.png" alt="">
+									<ul>
+                                        <li>Responsiveness</li>
+                                        <li>Commitment</li>
+                                        <li>Innovation</li>
+                                    </ul>
+
 								</div>
 							</div>
-							<div class="item">
-								<div class="testi_item">
-									<img src="img/testimonials/testi-1.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testi_item">
-									<img src="img/testimonials/testi-2.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testi_item">
-									<img src="img/testimonials/testi-1.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
-								</div>
-							</div>
-							<div class="item">
-								<div class="testi_item">
-									<img src="img/testimonials/testi-2.png" alt="">
-									<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its</p>
-									<h4>Cordelia Barton</h4>
-									<h6>CEO at Google</h6>
-								</div>
-							</div>
+							
+							
 						</div>
         			</div>
         		</div>
